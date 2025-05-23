@@ -1,0 +1,17 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Alpine C/C++ Dev Container (Dockerfile)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "vadimcn.vscode-lldb"
+      ]
+    }
+  }
+}
